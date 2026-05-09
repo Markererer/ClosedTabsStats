@@ -4,8 +4,20 @@
   "version": "1.0.0",
   "description": "Track how many tabs you close over time and see rolling stats in a popup.",
   "permissions": ["storage", "tabs", "sessions", "alarms"],
+  "icons": {
+    "16": "images/icon_extension.png",
+    "32": "images/icon_extension.png",
+    "48": "images/icon_extension.png",
+    "128": "images/icon_extension.png"
+  },
   "action": {
     "default_title": "Closed Tabs Stats",
+    "default_icon": {
+      "16": "images/icon_extension.png",
+      "32": "images/icon_extension.png",
+      "48": "images/icon_extension.png",
+      "128": "images/icon_extension.png"
+    },
     "default_popup": "popup.html"
   },
   "background": {
