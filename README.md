@@ -27,6 +27,10 @@ Chrome does not expose a perfect retroactive ledger for every tab restore action
 3. Click Load unpacked.
 4. Select the `ClosedTabsStats` folder.
 
+## Install on chrome extension store
+
+Extension is currently pending review
+
 ## Use it
 
 Click the extension icon to open the popup and see the current metrics.
