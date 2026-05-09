@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Closed Tabs Stats</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="panel" aria-label="Closed tabs stats">
+        <p class="line line--hero" id="openTabsLine">Currently tabs open: --</p>
+        <p class="line" id="closedEverLine">Tabs closed ever: --</p>
+        <p class="line line--sub" id="closedWeekLine">This week: --</p>
+        <p class="line" id="restoredEverLine">Tabs restored ever: --</p>
+        <p class="line line--sub" id="restoredWeekLine">This week: --</p>
+        <p class="footnote" id="storageLine"></p>
+      </section>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

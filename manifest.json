@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Closed Tabs Stats",
+  "version": "1.0.0",
+  "description": "Track how many tabs you close over time and see rolling stats in a popup.",
+  "permissions": ["storage", "tabs", "sessions", "alarms"],
+  "action": {
+    "default_title": "Closed Tabs Stats",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}
