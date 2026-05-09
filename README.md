@@ -1,10 +1,10 @@
-# Closed Tabs Stats
+# Closed Tabs Stats ![Closed Tabs Stats icon](images/icon_extension.png)
 
-Closed Tabs Stats![Closed Tabs Stats icon](images/icon_extension.png) is a simple Manifest V3 Chrome extension that records tab close and restore activity and shows a minimal text-only popup.
-
-![Closed Tabs Stats screenshot](images/screenshot.jpeg)
+Closed Tabs Stats is a simple Manifest V3 Chrome extension that records tab close and restore activity and shows a minimal text-only popup.
 
 ## What it shows
+
+![Closed Tabs Stats screenshot](images/screenshot.jpeg)
 
 - Currently open tabs
 - Tabs closed ever
