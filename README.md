@@ -1,6 +1,6 @@
 # Closed Tabs Stats ![Closed Tabs Stats icon](images/icon_extension_32.png)
 
-Closed Tabs Stats is a simple Manifest V3 Chrome extension that records tab close and restore activity and shows a minimal text-only popup.
+Closed Tabs Stats is a simple Manifest V3 Chrome extension that records tab close and restore activity and shows a minimal text-only popup. The developer of this extension really likes (mostly useless) data.
 
 ## What it shows
 
@@ -20,16 +20,9 @@ All data is stored locally in `chrome.storage.local` inside your Chrome profile.
 
 Chrome does not expose a perfect retroactive ledger for every tab restore action. Restore tracking here is best-effort using Chrome's recently closed session queue, which is enough for normal restore-shortcut and session-restore use.
 
-## Install locally
-
-1. Open `chrome://extensions`.
-2. Turn on Developer mode.
-3. Click Load unpacked.
-4. Select the `ClosedTabsStats` folder.
-
 ## Install on chrome extension store
 
-Extension is currently pending review
+https://chromewebstore.google.com/detail/closed-tabs-stats/pabmedbgadohdmmdekmebopjjkkkbcjp
 
 ## Use it
 
